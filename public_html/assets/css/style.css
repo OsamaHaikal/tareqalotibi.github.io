@@ -60,6 +60,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
@@ -11431,6 +11435,7 @@ pre .code {
   z-index: 2;
   box-shadow: 0 5px 1px rgba(128, 128, 128, 0.13);
   width: 170px;
+  height: 170px;
   border-radius: 50%;
 }
 
@@ -11517,10 +11522,11 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  /* public_html/assets/imgs/TareqSpeaking.jpg */
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/TareqOffice.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/TareqOffice.jpg);
   background-size: cover;
-  background-position: 20% 50%;
+  background-position: 40% 25%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
@@ -11535,7 +11541,7 @@ pre .code {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 55%;
+  top: 35%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
